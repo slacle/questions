@@ -1,0 +1,167 @@
+/* ----------- question ----------- */
+
+.question {
+	max-width: 800px;
+	margin: 0 auto;
+	box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1);
+
+	header {
+		padding: 20px;
+		background: $bg-blue;
+		height: 90px;
+		max-width: 600px;
+
+		img {
+		    float: left;
+		    margin-right: 40px;
+		    border-radius: 50%;
+		}
+
+		h1 {
+			font-family: $serif;
+		    font-size: 16px;
+    		margin-top: 6px;
+		}
+
+		p {
+			font-size: 10px;
+			color: $text-light-grey;
+
+			a {
+			    font-size: 12px;
+			    font-weight: bold;
+			    line-height: 1;
+			    margin-right: 8px;
+			}
+		}
+
+		a {
+			color: $elements-blue;
+
+			&:hover {
+				color: ($elements-blue - 30);
+			}
+		}
+
+	}
+
+} // .question
+
+
+/* ----------- begin extends ----------- */
+
+%serif-txt {
+	font-family: $serif;
+	font-size: 12px;
+}
+
+%numbers {
+	font-family: $sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+%under-hr {
+	color: $text-light-grey;
+	font-size: 10px;
+	text-transform: uppercase;	
+}
+
+%bottom-circle {
+	content: "";
+	display: block;
+	position: relative;
+	top: 5px;
+	left: 30px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: $text-light-grey;
+}
+
+
+/* ----------- details ----------- */
+
+.details {
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 37px;
+
+	img {
+		border-radius: 50%;
+	}
+
+	hr {
+	    height: 1px;
+	    margin-bottom: 9px;
+	    background: $text-light-grey;
+	    border: none;	
+	}
+
+	div {
+		position: relative;
+		height: 154px;
+		width: 90px;
+		padding: 10px;
+		margin-right: 12px;
+		text-align: center;
+	}
+
+	.asked, .found {
+		height: 187px;
+		padding-top: 157px;
+		background: $bg-blue;
+		@extend %under-hr;
+		
+		&:after { @extend %bottom-circle; }
+	}
+
+	.more-act {
+		@extend %serif-txt;
+
+		&:after { @extend %bottom-circle; }
+
+		span {
+			display: block;
+			margin: 30px 0 52px;			
+			@extend %numbers;
+		}
+	}
+
+	.reacted {
+		background: $boxes-grey;
+		@extend %under-hr;
+
+		&:after { @extend %bottom-circle; }
+
+		&:hover{ background: ($boxes-grey + 5); }
+	    
+	    img {
+	    	margin: 12px 0 50px;
+	    }
+	}
+
+	.answered:after, .answered hr  {
+		background: $text-dark-grey;
+	}
+
+	.stats {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-between;
+	    width: 188px;
+	    margin: 0;
+	    padding: 9px 0 3px 42px;
+	    text-align: left;
+
+	    p {
+       		@extend %serif-txt;
+	    }
+
+	    span {
+	    	margin-right: 5px;			
+			@extend %numbers;
+	    }
+	}
+
+} // .details

@@ -1,0 +1,22 @@
+/* ----------- layout ----------- */
+
+body {
+	background: $bg-beige;
+	font-family: $sans-serif;
+}
+
+body > header {
+	background: $white;
+}
+
+.inner {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: $bg-grey;
+	box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1);
+}

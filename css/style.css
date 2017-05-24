@@ -1,9 +1,130 @@
+/* ----------- reset ----------- */
 *, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+a {
+  text-decoration: none; }
+
+/* ----------- layout ----------- */
 body {
-  background: #ffe1ad; }
+  background: #ffe1ad;
+  font-family: arial, sans-serif; }
+
+body > header {
+  background: #fff; }
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fbfbfb;
+  box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1); }
+
+/* ----------- question ----------- */
+.question {
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1); }
+  .question header {
+    padding: 20px;
+    background: #dff3fd;
+    height: 90px;
+    max-width: 600px; }
+    .question header img {
+      float: left;
+      margin-right: 40px;
+      border-radius: 50%; }
+    .question header h1 {
+      font-family: "Noto Serif", serif;
+      font-size: 16px;
+      margin-top: 6px; }
+    .question header p {
+      font-size: 10px;
+      color: #a7a9ac; }
+      .question header p a {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1;
+        margin-right: 8px; }
+    .question header a {
+      color: #0266b3; }
+      .question header a:hover {
+        color: #004895; }
+
+/* ----------- begin extends ----------- */
+.details .more-act, .details .stats p {
+  font-family: "Noto Serif", serif;
+  font-size: 12px; }
+
+.details .more-act span, .details .stats span {
+  font-family: arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold; }
+
+.details .asked, .details .found, .details .reacted {
+  color: #a7a9ac;
+  font-size: 10px;
+  text-transform: uppercase; }
+
+.details .asked:after, .details .found:after, .details .more-act:after, .details .reacted:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 30px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #a7a9ac; }
+
+/* ----------- details ----------- */
+.details {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 37px; }
+  .details img {
+    border-radius: 50%; }
+  .details hr {
+    height: 1px;
+    margin-bottom: 9px;
+    background: #a7a9ac;
+    border: none; }
+  .details div {
+    position: relative;
+    height: 154px;
+    width: 90px;
+    padding: 10px;
+    margin-right: 12px;
+    text-align: center; }
+  .details .asked, .details .found {
+    height: 187px;
+    padding-top: 157px;
+    background: #dff3fd; }
+  .details .more-act span {
+    display: block;
+    margin: 30px 0 52px; }
+  .details .reacted {
+    background: #eeeeee; }
+    .details .reacted:hover {
+      background: #f3f3f3; }
+    .details .reacted img {
+      margin: 12px 0 50px; }
+  .details .answered:after, .details .answered hr {
+    background: #2d2c2e; }
+  .details .stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 188px;
+    margin: 0;
+    padding: 9px 0 3px 42px;
+    text-align: left; }
+    .details .stats span {
+      margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */
