@@ -3,15 +3,7 @@
 body {
 	background: $bg-beige;
 	font-family: $sans-serif;
-}
-
-body > header {
-	background: $white;
-}
-
-.inner {
-	max-width: 800px;
-	margin: 0 auto;
+	color: $text-dark-grey;
 }
 
 .container {
