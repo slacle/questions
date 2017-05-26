@@ -1,6 +1,6 @@
 @import "reset";
 @import "variables";
-
-body {
-	background: $bg-beige;
-}
+@import "layout";
+@import "header";
+@import "all-questions";
+@import "media-queries";
