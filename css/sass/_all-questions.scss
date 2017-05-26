@@ -1,9 +1,10 @@
 /* ----------- question ----------- */
 
 .question {
+	background: $white;
 	max-width: 800px;
 	margin: 0 auto;
-	box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1);
+	position: relative;
 
 	header {
 		padding: 20px;
@@ -45,10 +46,44 @@
 
 	}
 
+	&:before {
+	    box-shadow: inset -5px 0 5px -5px rgba(0, 0, 0, 0.05);
+	    content: " ";
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: -5px;
+	    width: 5px;
+	}	
+
+	&:after {
+	    box-shadow: inset 10px 0 10px -10px rgba(0, 0, 0, 0.15);
+	    content: " ";
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	    right: -10px;
+	    width: 10px;
+	}
+
 } // .question
 
+.load-more {
+	padding: 35px 20px;
 
-/* ----------- begin extends ----------- */
+	a {
+		color: $text-red;
+	    font-weight: bold;
+    	font-size: 14px;
+
+    	&:hover {
+    		text-decoration: underline;
+    	}
+	}
+}
+
+
+/* ----------- extends for details ----------- */
 
 %serif-txt {
 	font-family: $serif;
@@ -70,9 +105,9 @@
 %bottom-circle {
 	content: "";
 	display: block;
-	position: relative;
-	top: 5px;
-	left: 30px;
+	position: absolute;
+	bottom: -6px;
+    left: 40px;
 	width: 10px;
 	height: 10px;
 	border-radius: 5px;
@@ -86,6 +121,7 @@
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 37px;
+	border-bottom: 1px solid $boxes-grey;
 
 	img {
 		border-radius: 50%;
@@ -98,10 +134,13 @@
 	    border: none;	
 	}
 
-	> div:first-child {
+	.panels {
 		display: flex;
     	align-items: flex-end;
-    	flex-basis: 600px;
+
+    	a:last-child div {
+			margin-right: 0;
+		}
 	}
 
 	div div, .stats {
@@ -111,10 +150,6 @@
 		padding: 10px;
 		margin-right: 12px;
 		text-align: center;
-	}
-
-	div a:last-child div {
-		margin-right: 0;
 	}
 
 	.asked, .found {

@@ -10,11 +10,11 @@
 </head>
 <body>
 
-<header>
+<header class="header-all-q">
 
 	<div class="inner">
 
-		<a href="#" class="back">
+		<a href="#" class="back-btn">
 			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAXCAMAAAGUitUYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkyQkE0NDM2NDBGNTExRTdCNTdFQTk1M0RENzEwMEQwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjkyQkE0NDM3NDBGNTExRTdCNTdFQTk1M0RENzEwMEQwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTJCQTQ0MzQ0MEY1MTFFN0I1N0VBOTUzREQ3MTAwRDAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTJCQTQ0MzU0MEY1MTFFN0I1N0VBOTUzREQ3MTAwRDAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5YQULqAAAAV1BMVEXj5ebR0tO3ubzr7e2vsbT4+Pj3+Pjs7O3Hycvt7e7R0tTb3N3a2937+/vQ0dPHyMry8vP8/Pzy8/PGyMrGx8mytLi/wML39/jk5OW+wML+/v6ys7f///+5/Xq9AAAAHXRSTlP/////////////////////////////////////AFmG52oAAADLSURBVHjaYpCRYQAhQYAAApHSIDZAAAERtwwDswxYQkYSIIBAhAhYmEEKJMYIlmACy4rLAAQQSFZGhk0SrJaJFyTHyQcWA4pISUMZQMDDAGUAgTBAAEEZDBBakg1Ms4AVCPGDdXCxgxVIS8mg0DKMzFATBThgJrPADJZkhZorARBgMItAQIpRmhnBZ5ZmlII7RJCDSQDhQgYWHpgqBhlWMUk2hBkMoowyyAAoLynJiswH6+dG4cvI8PIzCSHzgYBdmksKmQ90H580JwBXHSEYlhMkVgAAAABJRU5ErkJggg==" alt="back">
 		</a>
 
@@ -44,14 +44,17 @@
 
 		</div> <!-- header-top -->
 
-		<input id="search" type="search" placeholder="Search questions">
-		<button type="button">SEARCH</button>
+		<div class="search">
+			<input id="search" type="search" placeholder="Search questions">
+			<button type="button">SEARCH</button>
+		</div>
 
 	</div> <!-- inner -->
 </header>
 
 <div class="container">
 
+
 	<section class="question">
 
 		<header>
@@ -61,7 +64,7 @@
 		</header>
 
 		<div class="details">
-			<div>
+			<div class="panels">
 				<div class="found"><hr>found</div>
 				<div class="more-act"><span>5</span>more activities</div>
 				<a href="#"><div class="reacted"><img src="img/face1.jpg" alt=""><hr>commented</div></a>
@@ -79,9 +82,6 @@
 	</section>
 
 
-			
-
-
 	<section class="question">
 
 		<header>
@@ -91,7 +91,7 @@
 		</header>
 
 		<div class="details">
-			<div>
+			<div class="panels">
 				<div class="found"><hr>found</div>
 				<div class="more-act"><span>5</span>more activities</div>
 				<a href="#"><div class="reacted"><img src="img/face1.jpg" alt=""><hr>commented</div></a>
@@ -109,9 +109,6 @@
 	</section>
 
 
-
-
-
 	<section class="question">
 
 		<header>
@@ -121,7 +118,7 @@
 		</header>
 
 		<div class="details">
-			<div>
+			<div class="panels">
 				<div class="found"><hr>found</div>
 				<div class="more-act"><span>5</span>more activities</div>
 				<a href="#"><div class="reacted"><img src="img/face1.jpg" alt=""><hr>commented</div></a>
@@ -139,8 +136,36 @@
 	</section>
 
 
+	<section class="question">
+
+		<header>
+			<a href="#"><img src="img/face3.jpg" alt=""></a>
+			<p><a href="#">Joseph</a> FOUND ON NEW YORK TIMES:</p>
+			<h1><a href="#">Questioning the Idea of Good Carbs, Bad Carbs</a></h1>
+		</header>
+
+		<div class="details">
+			<div class="panels">
+				<div class="found"><hr>found</div>
+				<div class="more-act"><span>5</span>more activities</div>
+				<a href="#"><div class="reacted"><img src="img/face1.jpg" alt=""><hr>commented</div></a>
+				<a href="#"><div class="reacted"><img src="img/face2.jpg" alt=""><hr>commented</div></a>
+				<a href="#"><div class="reacted"><img src="img/face4.jpg" alt=""><hr>commented</div></a>
+				<a href="#"><div class="reacted answered"><img src="img/face5.jpg" alt=""><hr>answered</div></a>
+			</div>
+			<div class="stats">
+				<p><span>2</span> related discussion</p>
+				<p><span>8</span> peers involved</p>
+				<p><span>5</span> conversations</p>
+			</div>
+		</div> <!-- details -->
+
+	</section>
 
 
+	<section class="question load-more">
+		<a href="#">load more questions</a>
+	</section>
 	
 </div> <!-- container -->
 	

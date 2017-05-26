@@ -1,15 +1,18 @@
-body > header {
+/* ----------- header ----------- */
+
+.header-all-q {
 	background: $white;
+	box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1);
 	position: relative;
 
 	.inner {
 		position: relative;
-		height: 155px;
 		max-width: 800px;
 		margin: 0 auto;
+		padding-bottom: 20px
 	}
 
-	.back {
+	.back-btn {
 	    position: absolute;
 	    left: -175px;
 	    top: 40px;
@@ -41,6 +44,7 @@ body > header {
 	    font-size: 26px;
 		line-height: 1;
 	    padding-left: 5px;
+	    margin-right: 50px;
 	    &:hover {
 	    	background: ($elements-blue - 20);
 	    }
@@ -49,11 +53,16 @@ body > header {
 	.sort {
 		font-family: $serif;
 		font-size: 13px;
+	    text-align: right;
+	    flex: 0 0 200px;
 		a {
 			font-family: $sans-serif;
 			font-size: 14px;
 			color: $elements-blue;
 			margin: 0 6px;
+			&:hover {
+				text-decoration: underline;
+			}
 			&.active {
 				color: $text-light-grey;
 				text-decoration: underline;
@@ -64,8 +73,12 @@ body > header {
 		}
 	}
 
+	.search {
+		display: flex;
+	}
+
 	input[type="search"] {
-		width: 600px;
+		flex-basis: 600px;
 		background: $bg-grey;
 		border: 1px solid $boxes-grey;
 		padding: 8px 15px;
@@ -73,7 +86,7 @@ body > header {
 
 	button {
 	    width: 175px;
-	    margin-left: 20px;
+	    margin-left: 25px;
 		background: $white;
 		border: 1px solid $text-light-grey;
 		padding: 8px 15px;
@@ -98,6 +111,7 @@ body > header {
 	    align-items: flex-end;
 	    justify-content: space-between;
 		flex-basis: 600px;
+		flex-wrap: wrap;
     }
 }
 
