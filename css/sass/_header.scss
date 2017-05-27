@@ -1,6 +1,6 @@
 /* ----------- header ----------- */
 
-.header-all-q {
+.main-header {
 	background: $white;
 	box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1);
 	position: relative;
@@ -50,7 +50,7 @@
 	    }
 	}
 
-	.sort {
+	.sort, .discussed {
 		font-family: $serif;
 		font-size: 13px;
 	    text-align: right;

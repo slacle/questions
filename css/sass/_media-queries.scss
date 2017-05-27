@@ -2,7 +2,7 @@
 
 @media (max-width: 820px) {
 
-	.header-all-q .inner {
+	.main-header .inner {
 	    padding: 0 20px 20px;
 	}
 
@@ -45,11 +45,11 @@
 		padding-top: 22px;
 	}
 
-	.header-all-q .add-question {
+	.main-header .add-question {
 		margin-right: 0;
 	}
 
-	.header-all-q .sort {
+	.main-header .sort {
 	    flex-basis: 150px;
 	}	
 
@@ -86,15 +86,15 @@
 	    border-bottom: 1px solid $boxes-grey;
 	}
 
-	.header-all-q .inner {
+	.main-header .inner {
 	    padding: 0 0 20px;
 	}
 
-	.header-all-q .sort {
+	.main-header .sort {
 	    text-align: center;
 	}
 
-	.header-all-q button {
+	.main-header button {
 		margin-left: 0;
 	}
 

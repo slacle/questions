@@ -20,16 +20,16 @@ body {
   box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1); }
 
 /* ----------- header ----------- */
-.header-all-q {
+.main-header {
   background: #fff;
   box-shadow: 5px 0px 5px 0px rgba(70, 70, 70, 0.1);
   position: relative; }
-  .header-all-q .inner {
+  .main-header .inner {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
     padding-bottom: 20px; }
-  .header-all-q .back-btn {
+  .main-header .back-btn {
     position: absolute;
     left: -175px;
     top: 40px;
@@ -38,14 +38,14 @@ body {
     border-radius: 50%;
     border: 1px solid #a7a9ac;
     padding: 9px; }
-    .header-all-q .back-btn:hover {
+    .main-header .back-btn:hover {
       background: #f9f9f9; }
-  .header-all-q h1 {
+  .main-header h1 {
     display: inline-block;
     font-size: 28px;
     color: #2d2c2e;
     margin-right: 22px; }
-  .header-all-q .add-question {
+  .main-header .add-question {
     display: inline-block;
     width: 26px;
     height: 26px;
@@ -56,33 +56,33 @@ body {
     line-height: 1;
     padding-left: 5px;
     margin-right: 50px; }
-    .header-all-q .add-question:hover {
+    .main-header .add-question:hover {
       background: #00529f; }
-  .header-all-q .sort {
+  .main-header .sort, .main-header .discussed {
     font-family: "Noto Serif", serif;
     font-size: 13px;
     text-align: right;
     flex: 0 0 200px; }
-    .header-all-q .sort a {
+    .main-header .sort a, .main-header .discussed a {
       font-family: arial, sans-serif;
       font-size: 14px;
       color: #0266b3;
       margin: 0 6px; }
-      .header-all-q .sort a:hover {
+      .main-header .sort a:hover, .main-header .discussed a:hover {
         text-decoration: underline; }
-      .header-all-q .sort a.active {
+      .main-header .sort a.active, .main-header .discussed a.active {
         color: #a7a9ac;
         text-decoration: underline; }
-      .header-all-q .sort a:last-child {
+      .main-header .sort a:last-child, .main-header .discussed a:last-child {
         margin-right: 0; }
-  .header-all-q .search {
+  .main-header .search {
     display: flex; }
-  .header-all-q input[type="search"] {
+  .main-header input[type="search"] {
     flex-basis: 600px;
     background: #fbfbfb;
     border: 1px solid #eeeeee;
     padding: 8px 15px; }
-  .header-all-q button {
+  .main-header button {
     width: 175px;
     margin-left: 25px;
     background: #fff;
@@ -91,7 +91,7 @@ body {
     color: #a7a9ac;
     font-weight: bold;
     cursor: pointer; }
-    .header-all-q button:hover {
+    .main-header button:hover {
       background: #f8f8f8; }
 
 .header-top {
@@ -273,9 +273,46 @@ input[type="radio"] {
     .details .stats span {
       margin-right: 5px; }
 
+/* ----------- single header ----------- */
+.discussed span {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 0 10px; }
+
+/* ----------- single question ----------- */
+.question header {
+  max-width: 100%; }
+
+.question-txt {
+  display: flex; }
+
+.actions {
+  display: flex;
+  flex-direction: column; }
+
+/* ----------- comments ----------- */
+.comment-1, .comment-2 {
+  max-width: 800px;
+  margin: 40px auto; }
+
+.comment-2 {
+  padding-left: 40px; }
+
+/* ----------- media queries ----------- */
+@media (max-width: 450px) {
+  .question header h1 {
+    clear: left;
+    border-top: 1px solid #fff; }
+
+  .question-txt {
+    flex-direction: column; }
+
+  .actions {
+    flex-direction: row;
+    justify-content: space-between; } }
 /* ----------- media queries ----------- */
 @media (max-width: 820px) {
-  .header-all-q .inner {
+  .main-header .inner {
     padding: 0 20px 20px; }
 
   .question header {
@@ -296,10 +333,10 @@ input[type="radio"] {
   .header-top {
     padding-top: 22px; }
 
-  .header-all-q .add-question {
+  .main-header .add-question {
     margin-right: 0; }
 
-  .header-all-q .sort {
+  .main-header .sort {
     flex-basis: 150px; } }
 @media (max-width: 485px) {
   .details .asked, .details .found {
@@ -320,13 +357,13 @@ input[type="radio"] {
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee; }
 
-  .header-all-q .inner {
+  .main-header .inner {
     padding: 0 0 20px; }
 
-  .header-all-q .sort {
+  .main-header .sort {
     text-align: center; }
 
-  .header-all-q button {
+  .main-header button {
     margin-left: 0; }
 
   .question header {
