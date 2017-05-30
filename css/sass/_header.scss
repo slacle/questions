@@ -29,21 +29,21 @@
 
 	h1 {
 		display: inline-block;
-		font-size: 28px;
+		font-size: 29px;
 		color: $text-dark-grey;
 		margin-right: 22px;
 	}
 
 	.add-question {
 		display: inline-block;
-		width: 26px;
+		width: 25px;
 		height: 26px;
 		border-radius: 50%;
 		background: $elements-blue;
 	    color: $white;
 	    font-size: 26px;
 		line-height: 1;
-	    padding-left: 5px;
+	    padding-left: 6px;
 	    margin-right: 50px;
 	    &:hover {
 	    	background: ($elements-blue - 20);
@@ -57,7 +57,7 @@
 	    flex: 0 0 200px;
 		a {
 			font-family: $sans-serif;
-			font-size: 14px;
+			font-size: 15px;
 			color: $elements-blue;
 			margin: 0 6px;
 			&:hover {
@@ -82,15 +82,19 @@
 		background: $bg-grey;
 		border: 1px solid $boxes-grey;
 		padding: 8px 15px;
+		font-family: $sans-serif;
+		font-size: 14px;
 	}
 
 	button {
-	    width: 175px;
-	    margin-left: 25px;
+	    width: 180px;
+	    margin-left: 20px;
 		background: $white;
 		border: 1px solid $text-light-grey;
-		padding: 8px 15px;
+		padding: 7px 15px;
 		color: $text-light-grey;
+		font-family: $sans-serif;
+		font-size: 15px;
 		font-weight: bold;
 		cursor: pointer;
 
@@ -104,7 +108,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 48px 0 22px;
+    padding: 45px 0 20px;
 
     .header-top-left {
 		display: flex;
@@ -142,7 +146,7 @@ input[type="radio"] {
 		    width: 15px;
 		    height: 15px;
 		    border-radius: 50%;
-		    margin-right: 10px;
+		    margin-right: 9px;
 	  	}
 	}
 

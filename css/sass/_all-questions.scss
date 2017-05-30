@@ -14,34 +14,26 @@
 
 		img {
 		    float: left;
-		    margin-right: 40px;
+		    margin-right: 38px;
 		    border-radius: 50%;
 		}
 
 		h1 {
 			font-family: $serif;
 		    font-size: 16px;
-    		margin-top: 6px;
+    		margin-top: 4px;
 		}
 
 		p {
-			font-size: 10px;
-			color: $text-light-grey;
+			@extend %has-done;
 
 			a {
-			    font-size: 12px;
-			    font-weight: bold;
-			    line-height: 1;
-			    margin-right: 8px;
+			    @extend %first-name;
 			}
 		}
 
 		a {
-			color: $elements-blue;
-
-			&:hover {
-				color: ($elements-blue - 30);
-			}
+			@extend %link-color;
 		}
 
 	}
@@ -69,12 +61,12 @@
 } // .question
 
 .load-more {
-	padding: 35px 20px;
+	padding: 33px 20px;
 
 	a {
 		color: $text-red;
 	    font-weight: bold;
-    	font-size: 14px;
+    	font-size: 15px;
 
     	&:hover {
     		text-decoration: underline;
@@ -98,7 +90,7 @@
 
 %under-hr {
 	color: $text-light-grey;
-	font-size: 10px;
+	font-size: 11px;
 	text-transform: uppercase;	
 }
 
@@ -120,7 +112,7 @@
 .details {
 	display: flex;
 	align-items: flex-end;
-	padding-bottom: 37px;
+	padding-bottom: 40px;
 	border-bottom: 1px solid $boxes-grey;
 
 	img {
@@ -157,7 +149,9 @@
 		padding-top: 157px;
 		background: $bg-blue;
 		@extend %under-hr;
-		
+	}
+
+	.found  {
 		&:after { @extend %bottom-circle; }
 	}
 
@@ -182,7 +176,7 @@
 		&:hover{ background: ($boxes-grey + 5); }
 	    
 	    img {
-	    	margin: 12px 0 50px;
+	    	margin: 12px 0 48px;
 	    }
 	}
 
@@ -196,7 +190,7 @@
 	    justify-content: space-between;
 	    width: 188px;
 	    margin: 0;
-	    padding: 9px 0 3px 54px;
+	    padding: 5px 0 8px 52px;
 	    text-align: left;
 
 	    p {
