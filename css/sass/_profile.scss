@@ -6,8 +6,8 @@ body.profile {
 
 .profile-wrap {
 	max-width: 850px;
-	margin: 20px auto;
-    padding-bottom: 24px;
+	margin: 20px auto 0;
+    padding: 0 10px 35px;
 	background: $white;
 	text-align: center;
 }
@@ -21,7 +21,6 @@ body.profile {
 	    font-family: monospace;
     	font-size: 20px;
     	font-weight: bold;
-    	padding: 10px;
 	}
 }
 
@@ -34,25 +33,26 @@ body.profile {
 }
 
 .main-pic {
-	margin-bottom: 10px;
+    margin: 5px 0 11px;
 }
 
 .name {
 	display: block;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 .profile-meta {
 	display: flex;
     max-width: 600px;
-    margin: 10px auto 20px;
+    margin: 12px auto 19px;
     justify-content: space-between;
     color: $text-medium-grey;
+    font-size: 14px;
 
     span {
     	color: $text-dark-grey;
-    	font-size: 15px;
+    	font-size: 14px;
     	margin-left: 5px;
     }
 
@@ -61,13 +61,15 @@ body.profile {
 
     	img {
 		    margin-left: 10px;
+	        width: 74px;
+    		height: 25px;
     	}
     }
-}
+} //.profile-meta
 
 .profile hr {
 	height: 1px;
-	width: 600px;
+	max-width: 600px;
 	margin: 0 auto;
 	border: none;
 	background: $text-light-grey;
@@ -98,12 +100,13 @@ body.profile {
     align-items: center;
     justify-content: space-between;
     max-width: 600px;
-    margin: 15px auto 25px;
+    margin: 11px auto 32px;
 
 	h1 {
 		font-family: $serif;
-		font-size: 35px;
+		font-size: 37px;
 		font-weight: normal;
+	    word-spacing: 5px;
 	}
 
 	.previous {
@@ -119,24 +122,24 @@ body.profile {
 
 .profile h2 {
 	color: $text-medium-grey;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 }
 
 .squares {
 	display: flex;
 	max-width: 450px;
-    margin: 40px auto 65px;
+    margin: 45px auto 60px;
     justify-content: space-around;
     font-family: $serif;
 
     span {
     	display: block;
-    	margin: 16px 0 10px;
+    	margin: 17px 0 10px;
     	font-family: $sans-serif;
-    	font-size: 20px;
+    	font-size: 23px;
     	font-weight: bold;
     }
  
@@ -158,18 +161,10 @@ body.profile {
     	    z-index: -1;
 	    }
 
-	    &#peers:before {
-	    	transform:rotate(50deg);
-	    }
-	    &#discussions:before {
-	    	transform:rotate(-10deg);
-	    }
-	    &#findings:before {
-	    	transform:rotate(55deg);
-	    }
-	    &#questions:before {
-	    	transform:rotate(10deg);
-	    }
+	    &#peers:before { transform:rotate(53deg); }
+	    &#discussions:before { transform:rotate(-11deg); }
+	    &#findings:before { transform:rotate(57deg); }
+	    &#questions:before { transform:rotate(11deg); }
 	}	    
 } //.squares
 
@@ -177,7 +172,7 @@ body.profile {
     display: flex;
     justify-content: space-between;
     max-width: 300px;
-    margin: 0 auto 50px;
+    margin: 0 auto 41px;
 
 	div {
 		width: 90px;
@@ -185,7 +180,7 @@ body.profile {
 		div {
 			width: 90px;
 			height: 90px;
-			margin-bottom: 5px;
+			margin-bottom: 8px;
 		    padding: 20px;
 			background: $bg-pattern;
 		}
@@ -197,14 +192,18 @@ body.profile {
 
 .hottest {
 	background: $bg-pattern;
-    margin-top: 50px;
-    padding-bottom: 5px;
+    max-width: 850px;
+    margin: 0px auto 20px;
+    padding-bottom: 30px;
+    text-align: center;
 
 	img {
 		margin-top: -25px;
 	}
 
 	> span {
+		display: inline-block;
+		margin: 10px 0 3px;
 		font-size: 12px;
 		color: $text-medium-grey;
 
@@ -221,19 +220,127 @@ body.profile {
 	}
 
 	.hot-stats {
-	    margin: 30px 0;
+        display: flex;
+	    justify-content: space-between;
+	    max-width: 545px;
+	    margin: 26px auto 22px;
+	    flex-wrap: wrap;
 		font-family: $serif;
 		font-size: 13px;
     	font-weight: bold;
+    	color: ($text-dark-grey + 40);
 
-		span {
-			font-family: $sans-serif;
-			font-size: 15px;
-			margin: 0 8px 0 35px;
+    	div {
+			margin: 0 10px;
 
-			&:first-child {
-				margin-left: 0;
+			span {
+				font-family: $sans-serif;
+				font-size: 18px;
+			    margin-right: 8px;
 			}
 		}
 	}
+
 } //.hottest
+
+
+/* ----------- profile media queries ----------- */
+
+@media (max-width: 570px) {
+
+	.profile-wrap {
+		padding: 5px 10px 25px;
+	}
+
+	.close {
+		padding: 0;
+
+		a {
+			padding: 2px;
+		}
+	}
+
+	.main-pic {
+	    width: 50px;
+        margin: -5px 0 3px;
+	}
+
+	.name {
+	    font-size: 16px;
+	}
+
+	.profile-meta {
+	    flex-direction: column;
+
+	    span {
+	    	display: block;
+	    	margin-bottom: 15px;
+	    }
+
+	    .activity {
+		    justify-content: center;
+	    	flex-direction: column;
+
+	    	img {
+	    		margin: 5px auto 0;
+	    	}    
+		}
+	} //.profile-meta
+
+	.started {
+		margin-bottom: 12px;
+
+		h1 {
+			font-size: 22px;
+		}
+
+		.previous, .next {
+		    width: 20px;
+		    height: 20px;
+	        font-size: 20px;
+		}
+	} //.started
+
+	.profile h2 {
+	    max-width: 200px;
+		margin: 0 auto 16px;
+	}
+
+	.squares {
+		max-width: 225px;
+	    flex-wrap: wrap;
+        margin: 35px auto 43px;
+	}
+
+	.who-joined {
+		margin-bottom: 35px;
+	}
+
+	.hottest {
+		> span {
+			margin-bottom: 5px;
+		}
+
+		> a {
+	    	font-size: 15px;
+		}
+
+		.hot-stats {
+		    max-width: 290px;
+			font-size: 12px;
+
+			div {
+				margin-bottom: 10px;
+
+    			span {
+    				font-size: 17px;
+    			}
+			}
+
+			#peers { order: 3; }
+			#related { order: 1; }
+			#conversations { order: 2; }
+			#upvotes { order: 4; }
+		}
+	} //.hottest
+}
