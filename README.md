@@ -1,6 +1,18 @@
 # questions
-Q&amp;A app
 
-This is a test app for Monterail.
+> Q&A app
 
-You may view this project live at: www.slacle.com/questions
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

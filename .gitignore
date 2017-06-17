@@ -45,3 +45,9 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Copied from Vue cli install
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
