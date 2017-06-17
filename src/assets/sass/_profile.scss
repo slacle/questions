@@ -28,6 +28,10 @@ body.profile {
 	border-radius: 50%;
 }
 
+.who-joined img, .hottest img {
+	width: 50px;
+}
+
 .profile a {
 	@extend %link-color;
 }

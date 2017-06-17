@@ -1,0 +1,337 @@
+{
+  "users": [
+    {
+      "userId": 0,
+      "name": "Joseph",
+      "photo": "../src/assets/img/face5.jpg",
+      "memberFor": "5 months",
+      "lastSeen": "Saturday afternoon",
+      "activity": 2,
+      "peers": 46,
+      "discussions": 29,
+      "findings": 19,
+      "asked": 10
+    },
+    {
+      "userId": 1,
+      "name": "Eva",
+      "photo": "../src/assets/img/face2.jpg",
+      "memberFor": "3 months",
+      "lastSeen": "Monday morning",
+      "activity": 1,
+      "peers": 35,
+      "discussions": 20,
+      "findings": 9,
+      "asked": 12
+    },
+    {
+      "userId": 2,
+      "name": "Andrew",
+      "photo": "../src/assets/img/face4.jpg",
+      "memberFor": "3 weeks",
+      "lastSeen": "Thursday afternoon",
+      "activity": 0,
+      "peers": 8,
+      "discussions": 9,
+      "findings": 3,
+      "asked": 2
+    },
+    {
+      "userId": 3,
+      "name": "Patricia",
+      "photo": "../src/assets/img/face1.jpg",
+      "memberFor": "7 months",
+      "lastSeen": "Tuesday afternoon",
+      "activity": 3,
+      "peers": 26,
+      "discussions": 14,
+      "findings": 13,
+      "asked": 9
+    },
+    {
+      "userId": 4,
+      "name": "Jamie",
+      "photo": "../src/assets/img/face3.jpg",
+      "memberFor": "1 month",
+      "lastSeen": "Wednesday morning",
+      "activity": 3,
+      "peers": 31,
+      "discussions": 22,
+      "findings": 18,
+      "asked": 17
+    }
+  ],
+  "questions": [
+    {
+      "questionId": 0,
+      "userId": 0,
+      "title": "Questioning the Idea of Good Carbs, Bad Carbs",
+      "body": "Question 0 body. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus sem aliquet, gravida lacus a, sagittis ex. Ut sodales massa quis felis aliquam dapibus. Pellentesque interdum, justo a ultricies vehicula, mauris mauris hendrerit ipsum, eget interdum erat neque cursus ante. Maecenas aliquet mi sit amet metus aliquet, ac mollis.",
+      "votes": 19,
+      "answers": [
+        {
+          "answerId": 0,
+          "userId": 1,
+          "body": "Duis mattis commodo lectus, non ultrices mauris venenatis nec. Pellentesque fringilla interdum dolor, sit amet vehicula nunc mattis non.",
+          "date": "yesterday",
+          "votes": 8,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 2,
+              "body": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam quis interdum mi.",
+              "date": "yesterday",
+              "votes": 2
+            },
+            {
+              "commentId": 1,
+              "userId": 0,
+              "body": "Nulla nec condimentum sapien, sit amet tincidunt nunc.",
+              "date": "yesterday",
+              "votes": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": 1,
+      "userId": 2,
+      "title": "Vegan diet to stop diabetes progress",
+      "body": "Question 1 body. Sed lacus augue, venenatis sit amet auctor euismod, blandit id ante. Proin rutrum cursus lacus in maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam aliquam libero non varius dictum. Suspendisse rhoncus condimentum mauris vel facilisis. Aliquam orci velit, mollis ac odio nec, ornare consequat lorem.",
+      "votes": 11,
+      "answers": [
+        {
+          "answerId": 0,
+          "userId": 1,
+          "body": "Aliquam blandit, ligula vitae iaculis varius, urna purus hendrerit purus, quis lacinia felis dolor at libero.",
+          "date": "yesterday",
+          "votes": 5,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 2,
+              "body": "Ut id laoreet mauris. Aliquam erat volutpat.",
+              "date": "yesterday",
+              "votes": 3
+            },
+            {
+              "commentId": 1,
+              "userId": 0,
+              "body": "Proin placerat risus sit amet purus sagittis sagittis. Sed dictum et ipsum a ornare.",
+              "date": "yesterday",
+              "votes": 2
+            },
+            {
+              "commentId": 2,
+              "userId": 3,
+              "body": "Mauris elementum bibendum odio, vel auctor mauris vestibulum at.",
+              "date": "yesterday",
+              "votes": 6
+            },
+            {
+              "commentId": 3,
+              "userId": 1,
+              "body": "Phasellus mollis, urna ut luctus feugiat, elit sem pharetra est, nec iaculis odio massa vitae diam. Donec ornare convallis sodales. Integer vitae consequat est.",
+              "date": "yesterday",
+              "votes": 21
+            },
+            {
+              "commentId": 4,
+              "userId": 0,
+              "body": "Fusce vel urna metus. Quisque ultrices blandit aliquet. In efficitur fermentum turpis, sed vehicula urna ullamcorper ut.",
+              "date": "yesterday",
+              "votes": 4
+            }
+          ]
+        },
+        {
+          "answerId": 1,
+          "userId": 4,
+          "body": "In ipsum felis, dictum at lectus eget, fringilla mollis quam.",
+          "date": "yesterday",
+          "votes": 3,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 3,
+              "body": "Aenean placerat tempus sagittis. Aliquam lorem ex, interdum eget accumsan at, molestie non turpis.",
+              "date": "yesterday",
+              "votes": 31
+            },
+            {
+              "commentId": 1,
+              "userId": 0,
+              "body": "Etiam at elit ut eros bibendum commodo. Proin venenatis vulputate diam, id pulvinar quam aliquam sed.",
+              "date": "yesterday",
+              "votes": 2
+            },
+            {
+              "commentId": 2,
+              "userId": 1,
+              "body": "Mauris convallis ex at efficitur consectetur. Aliquam malesuada hendrerit pretium.",
+              "date": "yesterday",
+              "votes": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": 2,
+      "userId": 4,
+      "title": "Will insuline make my patient gain weight?",
+      "body": "Question 2 body. Aliquam erat volutpat. Ut at pharetra nisl. Donec augue arcu, facilisis sit amet magna a, posuere hendrerit quam. In hac habitasse platea dictumst. Aliquam vel nibh mi. Aliquam eu euismod nunc. Praesent dapibus, diam eu posuere pretium, tellus nisi lobortis ex, id semper felis tortor bibendum turpis.",
+      "votes": 22,
+      "answers": [
+        {
+          "answerId": 0,
+          "userId": 1,
+          "body": "Mauris at urna euismod, congue neque nec, sollicitudin lectus. Aenean convallis aliquet justo.",
+          "date": "yesterday",
+          "votes": 8,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 2,
+              "body": "Praesent lacinia at nibh quis rutrum.",
+              "date": "yesterday",
+              "votes": 5
+            }
+          ]
+        },
+        {
+          "answerId": 1,
+          "userId": 0,
+          "body": "Cras vel dictum leo. Integer cursus erat in convallis molestie. Sed volutpat lectus sed odio pharetra euismod.",
+          "date": "yesterday",
+          "votes": 2,
+          "comments": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": 3,
+      "userId": 3,
+      "title": "Donec iaculis libero nunc, a venenatis ex aliquet vel. Maecenas nec lacus consequat elit consectetur pretium.",
+      "body": "Question 3 body. Quisque ligula sapien, sodales quis consequat at, egestas at diam. Praesent eu dignissim tellus. Sed placerat dui mattis fringilla volutpat. Nunc volutpat risus tortor, vel euismod felis aliquam vel. In pellentesque condimentum tincidunt. Duis non enim luctus, porta erat vitae, mattis arcu.",
+      "votes": 7,
+      "answers": [
+        {
+          "answerId": 0,
+          "userId": 3,
+          "body": "Mauris gravida congue elit, sed bibendum lectus varius in. Curabitur tempus mattis massa eget cursus.",
+          "date": "yesterday",
+          "votes": 6,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 2,
+              "body": "Suspendisse hendrerit in odio a convallis.",
+              "date": "yesterday",
+              "votes": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": 4,
+      "userId": 2,
+      "title": "Mauris a nibh nec lorem venenatis cursus. Suspendisse nulla nibh?",
+      "body": "Question 4 body. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis mattis commodo lectus, non ultrices mauris venenatis nec. Pellentesque fringilla interdum dolor, sit amet vehicula nunc mattis non. Sed blandit convallis vulputate.",
+      "votes": 11,
+      "answers": [
+        {
+          "answerId": 0,
+          "userId": 3,
+          "body": "Proin justo lacus, pellentesque id nibh id, tristique vulputate risus.",
+          "date": "yesterday",
+          "votes": 24,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 0,
+              "body": "Etiam ipsum lacus, lobortis eu odio id, auctor pretium nulla. Sed faucibus dignissim lorem vitae dictum.",
+              "date": "yesterday",
+              "votes": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": 5,
+      "userId": 0,
+      "title": "Sed porta elit eu neque ultrices commodo.",
+      "body": "Question 5 body. Nam facilisis mattis orci, vitae lobortis sapien viverra vel. Sed eget facilisis mauris, vitae vulputate lacus. Etiam et sodales elit, vel ultrices urna.",
+      "votes": 20,
+      "answers": [
+        {
+          "answerId": 0,
+          "userId": 2,
+          "body": "Integer eu mattis ipsum. Etiam vehicula pharetra fermentum.",
+          "date": "yesterday",
+          "votes": 7,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 0,
+              "body": "Nullam efficitur risus in ante dignissim iaculis. Donec malesuada urna porta elit pretium, in pulvinar dolor auctor.",
+              "date": "yesterday",
+              "votes": 13
+            },
+            {
+              "commentId": 1,
+              "userId": 4,
+              "body": "Duis fermentum bibendum risus, id consequat augue placerat sit amet.",
+              "date": "yesterday",
+              "votes": 2
+            },
+            {
+              "commentId": 2,
+              "userId": 2,
+              "body": "Vivamus pulvinar sapien dui, in rutrum tellus aliquet in. Nam lacinia eget tellus in volutpat. Cras vitae ligula est.",
+              "date": "yesterday",
+              "votes": 3
+            },
+            {
+              "commentId": 3,
+              "userId": 2,
+              "body": "Curabitur vulputate eleifend fringilla.",
+              "date": "yesterday",
+              "votes": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": 6,
+      "userId": 1,
+      "title": "Ut id laoreet mauris. Aliquam erat volutpat?",
+      "body": "Question 6 body. Phasellus pretium interdum nulla, eu malesuada justo. Maecenas enim nisl, fermentum vel dui vel, volutpat dignissim mauris. Vestibulum cursus eros a risus ultricies, malesuada ultrices augue egestas. Aliquam fermentum in eros et ullamcorper. Phasellus suscipit venenatis risus, sed gravida massa malesuada at. Curabitur vulputate eleifend fringilla. Vivamus pulvinar sapien dui, in rutrum tellus aliquet in.",
+      "votes": 6,
+      "answers": [
+        {
+          "answerId": 0,
+          "userId": 3,
+          "body": " Aliquam fermentum in eros et ullamcorper. Phasellus suscipit venenatis risus, sed gravida massa malesuada at.",
+          "date": "yesterday",
+          "votes": 18,
+          "comments": [
+            {
+              "commentId": 0,
+              "userId": 5,
+              "body": "Phasellus pretium interdum nulla, eu malesuada justo. Maecenas enim nisl, fermentum vel dui vel, volutpat dignissim mauris.",
+              "date": "yesterday",
+              "votes": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
