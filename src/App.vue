@@ -1,7 +1,5 @@
 <template>
-  <div>
-  	<router-view></router-view>
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
@@ -14,11 +12,6 @@ export default {
   	'all-questions': allQuestions,
   	'single': single,
   	'profile': profile
-  },
-  data () {
-    return {
-	  hello: 'world'
-    }
   }
 }
 </script>

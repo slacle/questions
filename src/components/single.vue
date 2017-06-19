@@ -41,8 +41,8 @@
 				<div class="votes">
 					<span class="vote-num">{{question.votes}}</span> upvotes
 					<span class="vote-btns">
-						<a href="#" class="up" @click.once="question.votes += 1">up</a>
-						<a href="#" class="down" @click.once="question.votes -= 1">down</a>
+						<a href="#" class="up" @click.prevent.once="question.votes += 1">up</a>
+						<a href="#" class="down" @click.prevent.once="question.votes -= 1">down</a>
 					</span>
 				</div>
 			</div>
