@@ -68,6 +68,7 @@
       "title": "Questioning the Idea of Good Carbs, Bad Carbs",
       "body": "Question 0 body. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus sem aliquet, gravida lacus a, sagittis ex. Ut sodales massa quis felis aliquam dapibus. Pellentesque interdum, justo a ultricies vehicula, mauris mauris hendrerit ipsum, eget interdum erat neque cursus ante. Maecenas aliquet mi sit amet metus aliquet, ac mollis.",
       "votes": 19,
+      "activities": 5,
       "answers": [
         {
           "answerId": 0,
@@ -89,6 +90,13 @@
               "body": "Nulla nec condimentum sapien, sit amet tincidunt nunc.",
               "date": "yesterday",
               "votes": 6
+            },
+            {
+              "commentId": 2,
+              "userId": 4,
+              "body": "Condimentum sapien, sit amet tincidunt nunc.",
+              "date": "yesterday",
+              "votes": 4
             }
           ]
         }
@@ -100,17 +108,18 @@
       "title": "Vegan diet to stop diabetes progress",
       "body": "Question 1 body. Sed lacus augue, venenatis sit amet auctor euismod, blandit id ante. Proin rutrum cursus lacus in maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam aliquam libero non varius dictum. Suspendisse rhoncus condimentum mauris vel facilisis. Aliquam orci velit, mollis ac odio nec, ornare consequat lorem.",
       "votes": 11,
+      "activities": 8,
       "answers": [
         {
           "answerId": 0,
-          "userId": 1,
+          "userId": 2,
           "body": "Aliquam blandit, ligula vitae iaculis varius, urna purus hendrerit purus, quis lacinia felis dolor at libero.",
           "date": "yesterday",
           "votes": 5,
           "comments": [
             {
               "commentId": 0,
-              "userId": 2,
+              "userId": 4,
               "body": "Ut id laoreet mauris. Aliquam erat volutpat.",
               "date": "yesterday",
               "votes": 3
@@ -183,10 +192,11 @@
       "title": "Will insuline make my patient gain weight?",
       "body": "Question 2 body. Aliquam erat volutpat. Ut at pharetra nisl. Donec augue arcu, facilisis sit amet magna a, posuere hendrerit quam. In hac habitasse platea dictumst. Aliquam vel nibh mi. Aliquam eu euismod nunc. Praesent dapibus, diam eu posuere pretium, tellus nisi lobortis ex, id semper felis tortor bibendum turpis.",
       "votes": 22,
+      "activities": 1,
       "answers": [
         {
           "answerId": 0,
-          "userId": 1,
+          "userId": 3,
           "body": "Mauris at urna euismod, congue neque nec, sollicitudin lectus. Aenean convallis aliquet justo.",
           "date": "yesterday",
           "votes": 8,
@@ -194,9 +204,23 @@
             {
               "commentId": 0,
               "userId": 2,
+              "body": "Lacinia at nibh quis rutrum.",
+              "date": "yesterday",
+              "votes": 7
+            },
+            {
+              "commentId": 1,
+              "userId": 3,
               "body": "Praesent lacinia at nibh quis rutrum.",
               "date": "yesterday",
               "votes": 5
+            },
+            {
+              "commentId": 2,
+              "userId": 4,
+              "body": "At nibh quis rutrum.",
+              "date": "yesterday",
+              "votes": 8
             }
           ]
         },
@@ -215,13 +239,14 @@
     {
       "questionId": 3,
       "userId": 3,
-      "title": "Donec iaculis libero nunc, a venenatis ex aliquet vel. Maecenas nec lacus consequat elit consectetur pretium.",
+      "title": "Donec iaculis libero nunc, a venenatis ex aliquet vel.",
       "body": "Question 3 body. Quisque ligula sapien, sodales quis consequat at, egestas at diam. Praesent eu dignissim tellus. Sed placerat dui mattis fringilla volutpat. Nunc volutpat risus tortor, vel euismod felis aliquam vel. In pellentesque condimentum tincidunt. Duis non enim luctus, porta erat vitae, mattis arcu.",
       "votes": 7,
+      "activities": 6,
       "answers": [
         {
           "answerId": 0,
-          "userId": 3,
+          "userId": 4,
           "body": "Mauris gravida congue elit, sed bibendum lectus varius in. Curabitur tempus mattis massa eget cursus.",
           "date": "yesterday",
           "votes": 6,
@@ -229,9 +254,23 @@
             {
               "commentId": 0,
               "userId": 2,
+              "body": "Sendrerit in odio a convallis.",
+              "date": "yesterday",
+              "votes": 9
+            },
+            {
+              "commentId": 1,
+              "userId": 4,
               "body": "Suspendisse hendrerit in odio a convallis.",
               "date": "yesterday",
               "votes": 9
+            },
+            {
+              "commentId": 2,
+              "userId": 0,
+              "body": "Rerit in odio a convallis.",
+              "date": "yesterday",
+              "votes": 0
             }
           ]
         }
@@ -240,9 +279,10 @@
     {
       "questionId": 4,
       "userId": 2,
-      "title": "Mauris a nibh nec lorem venenatis cursus. Suspendisse nulla nibh?",
+      "title": "Mauris a nibh nec lorem venenatis cursus?",
       "body": "Question 4 body. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis mattis commodo lectus, non ultrices mauris venenatis nec. Pellentesque fringilla interdum dolor, sit amet vehicula nunc mattis non. Sed blandit convallis vulputate.",
       "votes": 11,
+      "activities": 3,
       "answers": [
         {
           "answerId": 0,
@@ -257,6 +297,13 @@
               "body": "Etiam ipsum lacus, lobortis eu odio id, auctor pretium nulla. Sed faucibus dignissim lorem vitae dictum.",
               "date": "yesterday",
               "votes": 4
+            },
+            {
+              "commentId": 1,
+              "userId": 1,
+              "body": "Euctor pretium nulla. Sed faucibus dignissim lorem vitae.",
+              "date": "yesterday",
+              "votes": 2
             }
           ]
         }
@@ -268,6 +315,7 @@
       "title": "Sed porta elit eu neque ultrices commodo.",
       "body": "Question 5 body. Nam facilisis mattis orci, vitae lobortis sapien viverra vel. Sed eget facilisis mauris, vitae vulputate lacus. Etiam et sodales elit, vel ultrices urna.",
       "votes": 20,
+      "activities": 5,
       "answers": [
         {
           "answerId": 0,
@@ -314,6 +362,7 @@
       "title": "Ut id laoreet mauris. Aliquam erat volutpat?",
       "body": "Question 6 body. Phasellus pretium interdum nulla, eu malesuada justo. Maecenas enim nisl, fermentum vel dui vel, volutpat dignissim mauris. Vestibulum cursus eros a risus ultricies, malesuada ultrices augue egestas. Aliquam fermentum in eros et ullamcorper. Phasellus suscipit venenatis risus, sed gravida massa malesuada at. Curabitur vulputate eleifend fringilla. Vivamus pulvinar sapien dui, in rutrum tellus aliquet in.",
       "votes": 6,
+      "activities": 4,
       "answers": [
         {
           "answerId": 0,
@@ -324,7 +373,7 @@
           "comments": [
             {
               "commentId": 0,
-              "userId": 5,
+              "userId": 4,
               "body": "Phasellus pretium interdum nulla, eu malesuada justo. Maecenas enim nisl, fermentum vel dui vel, volutpat dignissim mauris.",
               "date": "yesterday",
               "votes": 11
